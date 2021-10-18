@@ -6,16 +6,66 @@
     --secondary-title-color: #757575;
     --accent-collor: #2196F3;
     }
+    
+    p,h1,h2,h3,h4,h5,h6{
+        margin: 0;
+    }
+    ul{ 
+        margin: 0;
+        padding: 0;
+    }
+    button{
+    cursor: pointer;
+    width: 200px;
+    height: 50px;
+
+    }
     body{
         font-family: Roboto, sans-serif;
     }
+    .conteiner{
+        width: 1200px;
+        padding-left: 15px;
+        padding-right: 15;
+        margin: 0 auto ;        
+    }
+    .conteiner-photo{
+        display: flex;
+        margin-left: 215px;
+    }
     /* ---HEDER--- */
+    .header-connect{
+        margin-left: auto;
+        
+    }
+    .menu-list{
+        display: flex;
+        padding-top: 50px;
+        margin-right: 50px;
+
+    }
+    .header-class{
+        display: flex;
+        align-items: center;
+    }
+    .header-conteiner{
+        display:flex;
+        align-items: center;
+    
+
+    }
+    .conteiner-footer{
+        width: 1200px;
+        margin: 0 auto;
+    
+    }
     .portfolio{  
         font-weight: 500;
         font-size: 14px;
         line-height: 1.1;
         letter-spacing: 0.02em;
         color: #212121;
+        margin-left: 50px;
         }
         .mail{
             font-weight: 500;
@@ -24,6 +74,8 @@
             letter-spacing: 0.02em;
             color:var(--second-text-color);
             font-style:normal;
+            margin-left: 50px;
+            
             }
             .btn-light{
                 font-family: Raleway;
@@ -40,6 +92,7 @@
             line-height: 1.2;
             letter-spacing: 0.03em;
             color:var(--primary-text-color);
+            margin-right: 93px;
             }
             .header-one{
                 font-weight: 500;
@@ -61,6 +114,9 @@
                 .mail:hover{
             color:tomato;
                 }
+                .mail-footer:hover{
+                    color:tomato;
+                        }
                 .button-linka:hover{
                     color: tomato;
                 }
@@ -80,6 +136,9 @@
                         .mail:focus{
                     color:tomato;
                         }
+                        .mail-footer:focus{
+                            color:tomato;
+                                }
                         .button-linka:focus{
                             color: tomato;
                         }
@@ -105,6 +164,11 @@ color:var(--primary-text-color);
 
 .list{
     list-style: none;
+    display: flex;
+}
+.list-footer{
+    list-style: none;
+    display:block;
 }
 .link{
     text-decoration: none;
@@ -113,6 +177,27 @@ color:var(--primary-text-color);
     
     color:var(--third-text-color);
     background-color: var(--accent-collor);
+    margin-left: 700px;
+    margin-top: 30px;
+}
+.made{
+    padding-top: 94px;
+display: flex;
+align-items: center
+}
+.photo{
+    padding-right: 30px;
+    
+}
+.photo-user{
+    padding-right: 30px;
+    text-align: center;
+}
+
+
+.profil{
+    padding-top: 94px;
+    padding-bottom: 50px;
 }
 .some-item{
     font-family: Roboto;
@@ -150,6 +235,7 @@ text-align: center;
 letter-spacing: 0.06em;
 text-transform: uppercase;
 color:var(--primary-title-color);
+padding-top:200px   ;
 }
 /* Внимание к деталям заголовок */
 .big-text-attention{
@@ -159,6 +245,10 @@ line-height: 1.1;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color:var(--primary-text-color);
+margin-left: 30px;
+width: 270px;
+height: 16px;
+
 }
 /* Идейные соображения, а также начало повседневной работы по формированию позиции. */
 .some-text-web{
@@ -166,6 +256,11 @@ font-size: 14px;
 line-height: 1.7;
 letter-spacing: 0.03em;
 color:var(--second-text-color);
+margin-left: 30px;
+width: 270px;
+height: 75px;
+padding-top: 10px;
+padding-bottom: 10px;
 }
 /* Чем мы занимаемся */
 .some-item-web{
@@ -174,6 +269,17 @@ font-size: 36px;
 line-height: 1.1;
 letter-spacing: 0.03em;
 color:var(--primary-text-color);
+padding-top: 94px;
+margin-left: 612px;
+}
+.some-item-team{
+    font-weight: 700;
+font-size: 36px;
+line-height: 1.1;
+letter-spacing: 0.03em;
+color:var(--primary-text-color);
+padding-top: 94px;
+margin-left: 668px;
 }
 /* Игорь Демьяненко */
 .big-text{
@@ -190,7 +296,6 @@ font-size: 16px;
 line-height: 1.1;
 letter-spacing: 0.03em;
 color: var(--second-text-color)
-
 }
 /* <h2>Наши преимущества</h2> */
 .visually-hidden{
@@ -204,6 +309,32 @@ color: var(--second-text-color)
     clip-path: inset(50%);
     margin: -1px;
 }
+.footercolor-main{
+    background-color:#2F303A;
+    width: 1600px;
+    height: 600px;
+}
 .footercolor{
     background-color:#2F303A;
+    width: 1600px;
+    height: 252px;
+}
+.mail-footer{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color:var(--second-text-color);
+    font-style:normal;}
+    
+.adress-link-footer-pading{
+      padding-top: 20px;
+}
+.mail-footer-pading{
+    padding-top: 9px;
+}
+.user-discription{
+    padding-top: 30px;
+    padding-bottom: 10px;
+    text-align: center;
 }
