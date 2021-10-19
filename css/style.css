@@ -244,13 +244,14 @@ border-radius: 4px;
     background-color: var(--accent-collor);
     margin-left: 700px;
     margin-top: 30px;
+    border-radius: 4px;
 }
 .button-all{
     color:var(--third-text-color);
     background-color: var(--accent-collor);
     width: 73px;
     height: 38px;
-    border-radius: 4px;
+    
 }
 .made{
 padding-top: 94px;
