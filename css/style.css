@@ -69,13 +69,13 @@
   .cursor {
     cursor: pointer;
   }
-  .curret{
+  .current{
     color: var(--accent-color)
   }
   
   /* -------------header-------------- */
   
-  .menu-list {
+  .site-nav {
     display: flex;
   }
   
@@ -130,6 +130,12 @@
     letter-spacing: 0.02em;
     color: var(--secondary-title-color);
   }
+  .header-link-studio {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+  }
   
   .header-link:hover,
   .header-link:focus {
@@ -146,14 +152,18 @@
   
   /* -------------hero-------------- */
   
-  .hero {
-    min-width: 1600px;
+  .section-hero {
+    max-width: 1600px;
     background-color: #2f303a;
     height: 600px;
     align-items: center;
-    margin-inline: auto;
+    margin-inline:auto;
     padding-top: 200px;
     padding-bottom: 200px;
+    /* background-image:linear-gradient(rgba(47, 48, 58, 0.4),rgba(52, 60, 151, 0.4)), url(../images/herobg.jpg); */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
   
   .hero-title {
@@ -180,10 +190,6 @@
     background: var(--accent-color);
   }
   
-  .hero-btn {
-    background-color: var(--accent-color);
-  }
-  
   .btn-index {
     border: 1px var(--second-text-color);
     border-radius: 5px;
@@ -198,8 +204,10 @@
   }
   
   /* -------------about-------------- */
-  
-  .about {
+  .icone-background{
+    display: flex;
+  }
+  .section-about {
     padding-top: 94px;
   }
   .about-list {
@@ -209,6 +217,7 @@
   
   .about-container {
     width: 270px;
+
   }
   
   .about-container:not(:last-child) {
@@ -235,7 +244,7 @@
   
   /* -------------project-------------- */
   
-  .project {
+  .section-project {
     padding-top: 94px;
     padding-bottom: 94px;
   }
@@ -265,7 +274,7 @@
   
   /* -------------team-------------- */
   
-  .team {
+  .section-team {
     background-color: #f5f4fa;
     padding-top: 94px;
     padding-bottom: 94px;
@@ -283,7 +292,7 @@
   }
   
   .team-text {
-    padding-top: 10px;
+    margin-top:10px;
   }
   
   .team-list {
@@ -332,7 +341,7 @@
   }
   
   .contact-footer {
-    margin-top: 20px;
+    
   }
   
   .contact-footer-information {
@@ -363,6 +372,16 @@
     background-color: #2f303a;
     padding-bottom: 60px;
   }
+  .footer-logo{
+    font-family: Raleway, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--accent-color);
+
+  }
   
   /* -------------portfolio-------------- */
   
@@ -372,7 +391,7 @@
     margin-top: 94px;
   }
   
-  .gallery {
+  .saction-gallery  {
     padding-top: 94px;
     padding-bottom: 94px;
   }
