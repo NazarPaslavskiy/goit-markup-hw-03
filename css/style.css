@@ -57,7 +57,10 @@
     margin: -1px;
   }
   
-  
+  .site-item-link:hover,
+  .site-item-link:focus {
+    color: var(--accent-color);
+  }
   .contact:hover,
   .contact:focus {
     color: var(--accent-color);
