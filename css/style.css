@@ -87,7 +87,7 @@
   .header-nav {
     display: flex;
     align-items: center;
-    margin-left: 93px;
+   
   }
   
   .header-container {
@@ -95,17 +95,14 @@
   }
   
   .header-conntacts {
-    display: flex;
-  }
-  
-  .header-conntacts {
     margin-left: auto;
     align-items: center;
+    display: flex;
   }
   
   .nav-item:not(:last-child) {
     margin-right: 50px;
-    height: 16px;
+    
   }
   
   .header {
@@ -122,12 +119,13 @@
     line-height: 1.19;
     letter-spacing: 0.03em;
     color: var(--accent-color);
+    margin-right: 93px;
   
   }
   
   .header-second {
     color: var(--second-text-color);
-    margin-right: 93px;
+    
   }
   
   .site-item-link {
@@ -164,7 +162,8 @@
     background-color: #2f303a;
     height: 600px;
     align-items: center;
-    margin-inline:auto;
+    margin-right: auto;
+    margin-left: auto;
     padding-top: 200px;
     padding-bottom: 200px;
     /* background-image:linear-gradient(rgba(47, 48, 58, 0.4),rgba(52, 60, 151, 0.4)), url(../images/herobg.jpg); */
@@ -214,8 +213,15 @@
   .icone-background{
     display: flex;
   }
-  .section-about {
+  .section.section-project {
+    padding-top: 0;
+}
+.section-team{
+  background-color: #f5f4fa;  
+}
+  .section {
     padding-top: 94px;
+    padding-bottom: 94px;
   }
   .about-list {
     display: flex;
@@ -251,18 +257,12 @@
   
   /* -------------project-------------- */
   
-  .section-project {
-    padding-top: 94px;
-    padding-bottom: 94px;
-  }
   .project-title {
     border: 64px;
   }
   
   .img-list-container {
-    list-style: none;
     display: flex;
-    text-align: center;
     margin-top: 50px;
   }
   
@@ -281,17 +281,11 @@
   
   /* -------------team-------------- */
   
-  .section-team {
-    background-color: #f5f4fa;
-    padding-top: 94px;
-    padding-bottom: 94px;
-  }
+
   
   .team-container {
     display: flex;
     margin-top: 50px;
-    align-items: center;
-    margin-inline: auto;
   }
   
   .team-information:not(:last-child) {
@@ -343,10 +337,6 @@
   
   /* -------------footer-------------- */
   
-  .name-studio {
-    padding-top: 60px;
-  }
-  
   .contact-footer {
     
   }
@@ -378,16 +368,19 @@
   .footer {
     background-color: #2f303a;
     padding-bottom: 60px;
+    padding-top: 60px;
   }
   .footer-logo{
     font-family: Raleway, sans-serif;
-    font-style: normal;
-    font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
     color: var(--accent-color);
 
+  }
+  .adress{
+    margin-top: 20px;
+    font-style: normal;
   }
   
   /* -------------portfolio-------------- */
@@ -406,11 +399,11 @@
   .btn-container {
     display: flex;
     justify-content: center;
-    align-items: center;
     margin-bottom: 50px;
+
   }
   
-  .btn-portfolio {
+  .btn-portfolio:not(:last-child) {
     margin-right: 8px;
   }
   
@@ -458,7 +451,7 @@
   }
   
   .gallery-text {
-    padding-top: 4px;
+    margin-top:  4px;
   }
   
   .gallery-text {
